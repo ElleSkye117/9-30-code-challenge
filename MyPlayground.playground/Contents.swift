@@ -62,7 +62,7 @@ class Tests: XCTestCase {
         
         XCTAssertEqual(output, 7)
     }
-    func testSixValues() {
+    func testManyNonZeroValues() {
         let output = multiplyAllValues(43218765)
         
         XCTAssertEqual(output, 40_320)
@@ -74,7 +74,7 @@ class Tests: XCTestCase {
         XCTAssertEqual(output, 5)
     }
     
-    func testComplexZero() {
+    func testManyValuesIncludingZero() {
         let output = multiplyAllValues(1050809)
         
         XCTAssertEqual(output, 360)
